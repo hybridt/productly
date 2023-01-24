@@ -1,0 +1,20 @@
+{
+  "name": "productly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch assets/sass/style.scss style.css",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hybridt/productly.git"
+  },
+  "author": "hybridt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hybridt/productly/issues"
+  },
+  "homepage": "https://github.com/hybridt/productly#readme"
+}

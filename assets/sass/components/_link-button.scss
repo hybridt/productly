@@ -1,0 +1,11 @@
+.link-button {
+  color: $color-primary;
+  font-weight: 600;
+  font-family: 'Poppins', 'Verdana', sans-serif;
+  text-decoration: underline;
+  transition: all 0.5s;
+
+  &:hover {
+    color: $color-additional;
+  }
+}

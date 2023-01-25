@@ -1,0 +1,11 @@
+.icon {
+  display: inline-block;
+}
+
+.icon_play {
+  @include size(18px, 19px);
+  padding-right: 26px;
+  background-image: url('../../assets/img/start/icon-play.svg');
+  background-repeat: no-repeat;
+  vertical-align: sub;
+}

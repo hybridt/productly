@@ -1,28 +1,27 @@
 .button {
-    padding: 11px 25px 13px;
-    font-weight: 600;
-    border: 1px solid;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.5s;
+	padding: 11px 25px 13px;
+	border: 1px solid;
+	border-radius: 4px;
+	@include font($height: 2.1rem, $weight: 600);
+	transition: all 0.5s;
 
-    &_colored {
-        color: $color-white;
-        background-color: $color-primary;
-        border-color: $color-primary;
+	&_colored {
+		color: $color-white;
+		background-color: $color-primary;
+		border-color: $color-primary;
 
-        &:hover {
-            background-color: $color-additional;
-        }
-    }
+		&:hover {
+			background-color: $color-additional;
+		}
+	}
 
-    &_bordered {
-        color: $color-nile-blue;
-        background-color: $color-white;
-        border-color: $color-border;
+	&_bordered {
+		color: $color-nile-blue;
+		background-color: $color-white;
+		border-color: $color-border;
 
-        &:hover {
-            background-color: $color-border;
-        }
-    }
+		&:hover {
+			background-color: $color-border;
+		}
+	}
 }

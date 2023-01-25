@@ -1,14 +1,27 @@
 html {
-    font-size: $base-fontsize;
+	font-size: 10px;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: 'Open Sans', 'Verdana', sans-serif;
+	font-size: $base-fontsize;
+	font-family: 'Open Sans', 'Verdana', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: $color-title;
+	text-decoration: none;
+	color: $color-title;
 }
 
+button {
+	cursor: pointer;
+}
+
+p {
+	@include font($size: $base-fontsize, $height: $base-lineheight);
+	color: $color-text;
+}
+
+h1 {
+	@include font($size: 4.4rem, $height: 5.4rem, $weight: bold);
+	font-family: 'Poppins', 'Verdana', sans-serif;
+}

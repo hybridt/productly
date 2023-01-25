@@ -1,0 +1,17 @@
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin font($size: $base-fontsize, $height: $base-lineheight, $weight: normal, $style: normal) {
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@mixin flex($display: flex, $justify, $align) {
+  display: $display;
+  justify-content: $justify;
+  align-items: $align;
+}

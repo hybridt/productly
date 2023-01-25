@@ -1,0 +1,19 @@
+.tool {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool__icon {
+  margin: 0 0 30px;
+}
+
+.tool__title {
+  @include font($size: 2.2rem, $height: 3rem, $weight: 600);
+  margin: 0 0 16px;
+  color: $color-title;
+}
+
+.tool__description {
+  flex-grow: 1;
+  margin: 0;
+}

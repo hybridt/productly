@@ -1,0 +1,7 @@
+.columns-4 {
+  @include flex($display: flex, $justify: space-between);
+
+  & > * {
+    flex-basis: 22%;
+  }
+}

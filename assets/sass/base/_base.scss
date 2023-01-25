@@ -24,4 +24,10 @@ p {
 h1 {
 	@include font($size: 4.4rem, $height: 5.4rem, $weight: bold);
 	font-family: 'Poppins', 'Verdana', sans-serif;
+	color: $color-title;
+}
+
+h2 {
+	@include font($size: 3.4rem, $height: 4.6rem, $weight: bold);
+	color: $color-title;
 }

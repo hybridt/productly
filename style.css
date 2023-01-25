@@ -343,6 +343,15 @@ h1 {
   font-weight: bold;
   font-style: normal;
   font-family: "Poppins", "Verdana", sans-serif;
+  color: #2F281E;
+}
+
+h2 {
+  font-size: 3.4rem;
+  line-height: 4.6rem;
+  font-weight: bold;
+  font-style: normal;
+  color: #2F281E;
 }
 
 .header {
@@ -387,6 +396,15 @@ h1 {
 }
 .navigation__link:hover {
   color: #FF9900;
+}
+
+.columns-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.columns-4 > * {
+  flex-basis: 22%;
 }
 
 .button {
@@ -447,6 +465,27 @@ h1 {
   display: inline-block;
 }
 
+.icon-bg {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+}
+.icon-bg_violet {
+  background-color: #7752BE;
+}
+.icon-bg_yellow {
+  background-color: #FAB005;
+}
+.icon-bg_red {
+  background-color: #F03E3D;
+}
+.icon-bg_blue {
+  background-color: #4DADF7;
+}
+
 .icon_play {
   width: 18px;
   height: 19px;
@@ -454,6 +493,30 @@ h1 {
   background-image: url("../../assets/img/start/icon-play.svg");
   background-repeat: no-repeat;
   vertical-align: sub;
+}
+
+.icon_cursor {
+  width: 12px;
+  height: 17px;
+  background-image: url("../../assets/img/design/icon1.svg");
+}
+
+.icon_wave {
+  width: 18px;
+  height: 14px;
+  background-image: url("../../assets/img/design/icon2.svg");
+}
+
+.icon_heart {
+  width: 17px;
+  height: 15px;
+  background-image: url("../../assets/img/design/icon3.svg");
+}
+
+.icon_clock {
+  width: 15px;
+  height: 17px;
+  background-image: url("../../assets/img/design/icon4.svg");
 }
 
 .link-button {
@@ -465,6 +528,40 @@ h1 {
 }
 .link-button:hover {
   color: #FF7549;
+}
+
+.design-section__title {
+  margin: 0 auto 68px;
+  max-width: 462px;
+  text-align: center;
+}
+
+.design-section__button {
+  margin: 60px 0 0;
+  text-align: center;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool__icon {
+  margin: 0 0 30px;
+}
+
+.tool__title {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 0 16px;
+  color: #2F281E;
+}
+
+.tool__description {
+  flex-grow: 1;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

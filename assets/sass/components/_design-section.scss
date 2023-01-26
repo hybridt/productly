@@ -1,5 +1,8 @@
 .design-section__wrapper {
-
+  padding: 0 0 90px 0;
+  background-image: url('../../assets/img/design/background.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .design-section__title {
@@ -9,6 +12,10 @@
 }
 
 .design-section__button {
-  margin: 60px 0 0;
+  margin: 34px 0 0 0;
   text-align: center;
+
+  & > button {
+    padding: 15px 38px 16px;
+  }
 }

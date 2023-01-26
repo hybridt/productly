@@ -1,5 +1,5 @@
 .header {
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+	box-shadow: $shadow;
 
 	&-wrapper {
 		@include flex($display: flex, $justify: space-between, $align: center);

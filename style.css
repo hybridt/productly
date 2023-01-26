@@ -1,4 +1,4 @@
-.tool__description, .start-section__description, .start-section__title {
+.strategy__title, .tool__description, .start-section__description, .start-section__title {
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -359,8 +359,16 @@ h2 {
   color: #2F281E;
 }
 
+h3 {
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  font-weight: bold;
+  font-style: normal;
+  color: #2F281E;
+}
+
 .header {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
 .header-wrapper {
   display: flex;
@@ -411,6 +419,16 @@ h2 {
 }
 .columns-4 > * {
   flex-basis: 22%;
+}
+
+.columns-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.columns-3 > * {
+  flex-basis: 31%;
 }
 
 .button {
@@ -583,6 +601,110 @@ h2 {
 .tool__description {
   flex-grow: 1;
   margin: 0 0 26px 0;
+}
+
+.marketing-section__title {
+  margin-bottom: 14px;
+}
+
+.marketing-section__description {
+  margin: 0 0 24px 0;
+}
+
+.marketing-section__tags {
+  margin: 0 0 31px 0;
+}
+.marketing-section__tags > li {
+  margin-right: 7px;
+}
+
+.marketing-section__strategy {
+  margin: 0 0 30px 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+  font-weight: normal;
+  font-style: normal;
+  padding: 0px 14px;
+  border-radius: 90px;
+  color: #544837;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.tag_selected {
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+  color: #ffffff;
+}
+.tag_selected:hover {
+  background-color: #FF7549;
+}
+.tag_bordered {
+  background-color: #ffffff;
+  border: 1px solid #D7D7D7;
+}
+.tag_bordered:hover {
+  background-color: #D7D7D7;
+}
+.tag_card {
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.strategy {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.strategy_large {
+  flex-basis: 65%;
+}
+.strategy:hover {
+  box-shadow: none;
+}
+.strategy:hover .strategy__title {
+  color: #FF9900;
+}
+
+.strategy__image {
+  max-height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.strategy__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 24px 34px 19px 33px;
+}
+
+.strategy__title {
+  flex-grow: 1;
+  margin: 0 0 29px 0;
+  transition: all 0.5s;
+}
+
+.strategy__tags {
+  margin: 0;
+}
+.strategy__tags > li {
+  margin-right: 7px;
+  margin-bottom: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+.columns-3 {
+  @include flex($display: flex, $justify: space-between);
+  flex-wrap: wrap;
+
+  & > * {
+    flex-basis: 31%;
+  }
+}

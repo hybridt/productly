@@ -1,0 +1,46 @@
+.strategy {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &_large {
+    flex-basis: 65%;
+  }
+
+  &:hover {
+    box-shadow: none;
+
+    .strategy__title {
+      color: $color-primary;
+    }
+  }
+}
+
+.strategy__image {
+  max-height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.strategy__content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 24px 34px 19px 33px;
+}
+
+.strategy__title {
+  @extend %text-truncate;
+  flex-grow: 1;
+  margin: 0 0 29px 0;
+  transition: all 0.5s;
+}
+
+.strategy__tags {
+  margin: 0;
+
+  & > li {
+    margin-right: 7px;
+    margin-bottom: 7px;
+  }
+}

@@ -1,5 +1,6 @@
 @import 'abstracts/constants';
 @import 'abstracts/mixins';
+@import 'abstracts/placeholders';
 
 @import 'base/normalize';
 @import 'base/base';
@@ -7,8 +8,16 @@
 @import 'layout/header';
 @import 'layout/container';
 @import 'layout/navigation';
+@import 'layout/columns-4';
+@import 'layout/columns-3';
 
 @import 'components/button';
 @import 'components/start-section';
 @import 'components/icon';
 @import 'components/link-button';
+@import 'components/design-section';
+@import 'components/tool';
+@import 'components/marketing-section';
+@import 'components/tags';
+@import 'components/card';
+@import 'components/strategy';

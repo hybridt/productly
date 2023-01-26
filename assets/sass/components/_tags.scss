@@ -1,0 +1,39 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  @include font($size: 1.3rem, $height: 2.8rem);
+  padding: 0px 14px;
+  border-radius: 90px;
+  color: $color-text;
+  transition: all 0.5s;
+  cursor: pointer;
+
+  &_selected {
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-additional;
+    }
+  }
+
+  &_bordered {
+    background-color: $color-white;
+    border: 1px solid $color-tag-border;
+
+    &:hover {
+      background-color: $color-tag-border;
+    }
+  }
+
+  &_card {
+    background-color: $color-tag;
+    border: 1px solid $color-tag;
+  }
+}

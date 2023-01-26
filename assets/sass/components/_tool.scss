@@ -1,0 +1,21 @@
+.tool {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tool__icon {
+  margin: 0 0 30px;
+}
+
+.tool__title {
+  @include font($size: 2.2rem, $height: 3rem, $weight: 600);
+  margin: 0 0 16px;
+  color: $color-title;
+}
+
+.tool__description {
+  @extend %text-truncate;
+  flex-grow: 1;
+  margin: 0 0 26px 0;
+}

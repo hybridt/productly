@@ -1,0 +1,48 @@
+.employee {
+  position: relative;
+  padding: 36px 35px 34px 35px;
+  max-width: 29%;
+}
+
+.employee__content {
+  padding-right: 25px;
+}
+
+.employee__name {
+  @include font($height: 2.5rem, $weight: bold);
+  @extend %text-truncate;
+  margin: 0;
+}
+
+.employee__position {
+  @include font($size: 1.4rem, $height: 2.3rem);
+  @extend %text-truncate;
+  margin: 0;
+}
+
+.employee__email {
+  font-size: 1.4rem;
+  color: $color-email;
+}
+
+.employee__image {
+  @include size($width: 98px);
+  position: absolute;
+  top: calc(50% - 49px);
+  right: -32px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: $shadow-image;
+
+  &_kathy {
+    background-image: url('../../assets/img/about/avatar1.png');
+  }
+
+  &_alexandra {
+    background-image: url('../../assets/img/about/avatar2.png');
+  }
+
+  &_melani {
+    background-image: url('../../assets/img/about/avatar3.png');
+  }
+}
